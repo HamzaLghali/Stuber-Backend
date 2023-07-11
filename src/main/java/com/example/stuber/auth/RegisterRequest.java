@@ -1,6 +1,7 @@
 package com.example.stuber.auth;
 
 
+import com.example.stuber.models.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,9 +13,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RegisterRequest {
 
+	private String name;
+
 	private String username;
 
 	private String password;
 
-	private String name;
+	private Role role;
+
+
 }
