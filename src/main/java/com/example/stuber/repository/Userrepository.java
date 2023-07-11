@@ -13,6 +13,9 @@ import java.util.Optional;
 
 @Repository
 public interface Userrepository extends JpaRepository<User,Long> {
+
+	Optional<User> findByUsername(String username);
+
 	@Query("select driver from Driver driver")
 	List<Driver> getdrivers();
 	@Query("select parent from Parent parent")
