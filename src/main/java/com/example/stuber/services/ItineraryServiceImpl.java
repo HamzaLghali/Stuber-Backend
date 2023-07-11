@@ -19,7 +19,7 @@ public class ItineraryServiceImpl implements ItineraryService{
 	@Autowired
 	Busrepository busrepository;
 	@Autowired
-	Userrepository userrepository;
+	UserRepository userrepository;
 	@Autowired
 	Studentrepository studentrepository;
 

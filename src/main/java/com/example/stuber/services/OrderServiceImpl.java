@@ -4,7 +4,7 @@ import com.example.stuber.models.*;
 import com.example.stuber.repository.Adressrepository;
 import com.example.stuber.repository.Orderrepository;
 import com.example.stuber.repository.Studentrepository;
-import com.example.stuber.repository.Userrepository;
+import com.example.stuber.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ public class OrderServiceImpl implements OrderService {
 	@Autowired
 	Orderrepository orderrepository;
 	@Autowired
-	Userrepository userrepository;
+	UserRepository userrepository;
 	@Autowired
 	Studentrepository studentrepository;
 	@Autowired

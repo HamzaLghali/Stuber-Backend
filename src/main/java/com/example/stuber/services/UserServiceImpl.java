@@ -3,7 +3,7 @@ package com.example.stuber.services;
 import com.example.stuber.models.Driver;
 import com.example.stuber.models.Parent;
 import com.example.stuber.models.User;
-import com.example.stuber.repository.Userrepository;
+import com.example.stuber.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService{
 	@Autowired
-	Userrepository userrepository;
+	UserRepository userrepository;
 	@Override
 	public List<User> getusers() {
 		return userrepository.findAll();

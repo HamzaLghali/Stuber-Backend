@@ -3,7 +3,7 @@ package com.example.stuber.services;
 import com.example.stuber.models.Parent;
 import com.example.stuber.models.Student;
 import com.example.stuber.repository.Studentrepository;
-import com.example.stuber.repository.Userrepository;
+import com.example.stuber.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ public class StudentServiceImpl implements StudentService{
 	@Autowired
 	Studentrepository studentrepository;
 	@Autowired
-	Userrepository userrepository;
+	UserRepository userrepository;
 	@Override
 	public List<Student> getstudents() {
 		return studentrepository.findAll();

@@ -5,7 +5,6 @@ import com.example.stuber.models.Driver;
 import com.example.stuber.models.Parent;
 import com.example.stuber.models.User;
 import com.example.stuber.repository.Adressrepository;
-import com.example.stuber.repository.Userrepository;
 import com.example.stuber.services.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
