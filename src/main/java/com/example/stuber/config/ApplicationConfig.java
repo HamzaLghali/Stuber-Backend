@@ -1,4 +1,4 @@
-package com.example.stuber.auth;
+package com.example.stuber.config;
 
 
 import com.example.stuber.repository.Userrepository;

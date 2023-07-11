@@ -1,6 +1,5 @@
 package com.example.stuber.models;
 
-import com.example.stuber.auth.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
